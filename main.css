@@ -9,89 +9,89 @@ padding: 0px;
 
 }
 
-  /*contains name of store (my store) and nav bar (links) */
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(196, 102, 183, 0.377);
-  }
+/*contains name of store (my store) and nav bar (links) */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(196, 102, 183, 0.377);
+}
 
-  /* links in the nav bar */
-  nav ul {
-    display: flex;
-    list-style: none;
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-  }
+/* links in the nav bar */
+nav ul {
+  display: flex;
+  list-style: none;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
 
-  /* each link in the nav bar */
-  nav li {
-    margin-left: 1rem;
-  }
+/* each link in the nav bar */
+nav li {
+  margin-left: 1rem;
+}
 
-  /* contains the grid of store items */
-  main {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: .5rem;
-    padding: 1rem;
-  }
+/* contains the grid of store items */
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: .5rem;
+  padding: 1rem;
+}
 
-  /* store item boxes */
-  .store-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color:lightgray; /* this looks more like pink/purple than gray?? */
-    border: 2px solid black;
-  }
+/* store item boxes */
+.store-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color:lightgray; /* this looks more like pink/purple than gray?? */
+  border: 2px solid black;
+}
 
-  /* product description paragraph */
-  .store-item p:nth-child(3) {
-    font-size: 15px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    padding: 5px;
-  }
+/* product description paragraph */
+.store-item p:nth-child(3) {
+  font-size: 15px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 5px;
+}
 
-  /* format for the spans container */
-  .store-item-spans {
-    display: flex;
-    gap: 10px;
-    padding: 5px;
-  }
+/* format for the spans container */
+.store-item-spans {
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
 
-  /* spans: rating, price and stock */
-  .store-item-spans span {
-    font-size: 15px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-  }
+/* spans: rating, price and stock */
+.store-item-spans span {
+  font-size: 15px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
 
-  /* product image */
-  .store-item img {
-    width: 100%;
-    height: 150px;
-    object-fit: contain;
-  }
+/* product image */
+.store-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
 
-  /* product name */
-  .product-name {
-    font-size: 20px;
-    font-weight: bolder;
-    font-family:Arial, Helvetica, sans-serif;
-    color: black;
-    padding: 5px;
-  }
-  
-  /* copyright footer */
-  footer {
-    text-align: center;
-    padding: 1rem;
-  }
+/* product name */
+.product-name {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family:Arial, Helvetica, sans-serif;
+  color: black;
+  padding: 5px;
+}
+
+/* copyright footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+}
 
 
