@@ -23,7 +23,7 @@ nav ul {
   list-style: none;
   font-size: 30px;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
 }
 
 /* each link in the nav bar */
